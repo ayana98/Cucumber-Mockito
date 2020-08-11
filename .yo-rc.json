@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.lxisoft.school"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "gateway",
+    "baseName": "schoolManagement",
+    "packageName": "com.lxisoft.school",
+    "packageFolder": "com/lxisoft/school",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTQ3ZDY2MzJjYmRlNmRlYjI4M2JjMTJlYTg2MjFkM2IwYmQyNDVhYjZlYzFlYzJlYWZmOWM1YjdmNmNhNjY3ODkyMjBkNjY5MzRjNzAxYTEzMWU4ZTJiYjVkN2NkZGU2NzU1YjgzYjFmNmE2MzhkMTBkYjJhNzIyYWJmOTMxMWQ=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "creationTimestamp": 1596522327309,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}

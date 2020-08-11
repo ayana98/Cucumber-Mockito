@@ -1,0 +1,33 @@
+{
+    "name": "School",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "student",
+            "otherEntityRelationshipName": "school",
+            "relationshipName": "student"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "teacher",
+            "otherEntityRelationshipName": "school",
+            "relationshipName": "teacher"
+        }
+    ],
+    "changelogDate": "20200804063911",
+    "entityTableName": "school",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,33 @@
+
+
+entity School {
+	name String
+}
+
+entity Teacher {
+	name String,
+    phoneNumber String,
+    email String
+}
+
+entity Student{
+  name String,
+  address String,
+  phoneNumber Long,
+  email String
+}
+
+relationship OneToMany{
+  School to Student{school},
+  School to Teacher{school}
+}
+
+relationship ManyToMany {
+	Student{teacher} to Teacher{student}
+}
+
+
+ dto * with mapstruct
+
+service all with serviceImpl 
+
